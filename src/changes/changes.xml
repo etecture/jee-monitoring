@@ -1,0 +1,32 @@
+<document xmlns="http://maven.apache.org/changes/1.0.0"
+		  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		  xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/xsd/changes-1.0.0.xsd">
+	<properties>
+		<title>ETECTURE Commons Monitoring Changes</title>
+		<author email="robert.herschke@etecture.de">Robert Herschke</author>
+	</properties>
+	<body>
+		<release version="2.0.0" date="14.03.2013" description="Initialer Aufbau">
+			<action dev="rherschke" type="add">
+				Erstellen der Maven-Module
+			</action>
+			<action dev="rherschke" type="add">
+				Anlegen der Maven-Site des Moduls
+			</action>
+		</release>
+		<release version="2.0.1" date="16.03.2013" description="Erste lauffähige Version mit einigen KPI's">
+			<action dev="rherschke" type="add">
+				Einrichten der ersten Request-based KPI's
+			</action>
+			<action dev="rherschke" type="update">
+				Erweitern der Maven-Site des Moduls
+			</action>
+            <action dev="rherschke" type="add">
+                Alarm- und Configurations-Infrastruktur eingerichtet
+            </action>
+            <action dev="rherschke" type="add">
+                MTBFAlarm implementiert
+            </action>
+		</release>
+	</body>
+</document>
